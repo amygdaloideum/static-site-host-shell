@@ -1,0 +1,23 @@
+{
+  "name": "static-site-host-shell",
+  "version": "1.0.0",
+  "description": "A simple server I can run in an EC2 instance that serves files deployed by scp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amygdaloideum/static-site-host-shell.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amygdaloideum/static-site-host-shell/issues"
+  },
+  "homepage": "https://github.com/amygdaloideum/static-site-host-shell#readme",
+  "dependencies": {
+    "serve-handler": "^6.0.1"
+  }
+}
